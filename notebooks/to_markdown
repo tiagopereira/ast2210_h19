@@ -1,0 +1,4 @@
+#!/bin/bash
+jupyter nbconvert --to markdown sunpy_aia.ipynb --output-dir=../docs/
+jupyter nbconvert --to markdown IRIS.ipynb --output-dir=../docs/
+jupyter nbconvert --to markdown assignment.ipynb --output-dir=../docs/
